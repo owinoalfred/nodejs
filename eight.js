@@ -9,7 +9,8 @@ const servers = http.createServer((req, res)=>{
     }
     res.end(`<h1> OPPS </h1>
     <p>WHat are you looking for</p>
-    <a href = '/'>BACK</a>
+    <a href = '/'>BACK </a>
+    <a href = '/about'> Yes</a>
     `)
 })
 
